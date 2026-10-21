@@ -149,3 +149,12 @@ body{background:#f7f9fc;color:#172b43}
 :focus-visible{outline-color:#087e8b}
 .skip-link{background:#087e8b;color:#fff}
 @media(prefers-color-scheme:dark){:root{color-scheme:light}}
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
