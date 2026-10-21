@@ -93,3 +93,59 @@ body{line-height:1.7;-webkit-font-smoothing:antialiased;text-rendering:optimizeL
 .footer-links{display:flex;flex-wrap:wrap;gap:12px 20px}
 @media(max-width:720px){.nav-wrap{align-items:flex-start;gap:14px}.nav{flex-wrap:wrap;justify-content:flex-start;gap:6px}.nav a{padding:7px 9px;font-size:12px}.nav a.nav-cta{margin-left:0}.footer-grid{gap:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+/* === Refined light-first professional theme (2026) === */
+:root{
+  color-scheme:light;
+  --page:#f7f9fc;
+  --surface:#ffffff;
+  --surface-2:#eef3f8;
+  --ink:#172b43;
+  --muted:#52657a;
+  --line:#d9e2ec;
+  --accent:#087e8b;
+  --accent-2:#d9f3f5;
+  --warm:#9a5b16;
+}
+body{background:#f7f9fc;color:#172b43}
+.site-header{background:rgba(255,255,255,.94);border-bottom:1px solid #d9e2ec;box-shadow:0 4px 18px rgba(23,43,67,.04)}
+.brand strong,.brand small,.nav a{color:#172b43}
+.nav a:hover,.nav a.active:not(.nav-cta){color:#087e8b;background:#e6f7f8}
+.nav a.active:not(.nav-cta){border-color:#b9e9ed}
+.hero{background:linear-gradient(135deg,#f7fafd 0%,#edf5fa 58%,#e5f4f6 100%)}
+.hero h1,.section-heading h2,.project-preview h2,.feature-card h3,.profile-summary strong,.page-hero h1,.page-hero h2{color:#172b43}
+.hero h1 span,.eyebrow,.feature-number,.card-link,.text-link,.mini-projects span,.mini-projects b{color:#087e8b}
+.lead,.hero-note,.section-heading>p,.feature-card p,.project-preview>div:first-child p,.project-content>p,.story-grid p,.skill-card p,.workflow p,.timeline-list p,.mentor-copy>p:not(.mentor-role):not(.placeholder-note),.contact-info h2+*{color:#52657a}
+.btn-primary{background:#087e8b;color:#fff;border:1px solid #087e8b;box-shadow:0 5px 14px rgba(8,126,139,.14)}
+.btn-primary:hover{background:#066873}
+.btn-quiet{color:#17324d;border-color:#c4d1df;background:#fff}
+.profile-card,.feature-card,.mini-projects,.project-card,.skill-card,.contact-detail,.timeline-list>div,.workflow>div,.mentor-points article,.profile-facts article{background:#fff;border-color:#d9e2ec;box-shadow:0 8px 28px rgba(23,43,67,.045)}
+.profile-top{color:#52657a;border-bottom:1px solid #e4ebf2}
+.visual-stage{background:radial-gradient(circle at 50% 46%,rgba(8,126,139,.12),transparent 38%),linear-gradient(140deg,#e9f4f8,#dcebf3)}
+.stage-grid{background-image:linear-gradient(rgba(23,50,77,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(23,50,77,.06) 1px,transparent 1px)}
+.core-mark{color:#17324d;background:linear-gradient(145deg,#fff,#dff4f6);border-color:rgba(8,126,139,.4);box-shadow:0 0 34px rgba(8,126,139,.1),inset 0 0 20px rgba(8,126,139,.04)}
+.orbit{border-color:rgba(8,126,139,.24)}.orbit-two{border-color:rgba(23,50,77,.13)}
+.float-chip{background:rgba(255,255,255,.94);border-color:#d0e1e8;color:#17324d;box-shadow:0 6px 18px rgba(23,43,67,.07)}
+.profile-tags span,.skill-tags span{background:#eaf5f7;color:#245064;border-color:#d1e9ed}
+.hero-socials a{color:#52657a}.hero-socials a:hover{color:#087e8b}
+.section-soft,.page-hero{background:#eef3f8;border-bottom:1px solid #d9e2ec}
+.feature-card:hover,.contact-detail:hover{border-color:#9bcfd5;box-shadow:0 14px 34px rgba(23,43,67,.09)}
+.feature-card:before{background:rgba(8,126,139,.06)}
+.page-hero{background:linear-gradient(120deg,#f4f8fc,#eaf3f8)}
+.story-statement h2,.profile-facts strong,.timeline-list strong,.skill-card h2,.project-content h2,.contact-info h2{color:#172b43}
+.skill-card{background:#fff;border-color:#d9e2ec}
+.skill-card:hover{border-color:#9bcfd5}
+.project-art,.art-green,.art-sand,.art-blue,.art-warm,.art-dark{background:radial-gradient(circle at 70% 20%,rgba(8,126,139,.12),transparent 35%),linear-gradient(145deg,#eaf4f8,#dceaf2)}
+.contact-form input,.contact-form select,.contact-form textarea{background:#fff;border-color:#cbd7e3;color:#172b43}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:#087e8b;box-shadow:0 0 0 3px rgba(8,126,139,.1)}
+.footer{border-color:#d9e2ec;background:#17324d;color:#f7fafc}
+.footer .brand strong,.footer .brand small{color:#fff}
+.footer p,.footer-links a,.footer-grid>small{color:#d6e2ed}
+.footer-links a:hover{color:#8ee1e8}
+.placeholder-note{color:#8a4b08!important;border-color:#d7a65f}
+.mentor-portrait{background:linear-gradient(145deg,#eaf4f8,#dceaf2);border-color:#d9e2ec}
+.mentor-initials{background:linear-gradient(135deg,#087e8b,#4ba9b3);color:#fff}
+:focus-visible{outline-color:#087e8b}
+.skip-link{background:#087e8b;color:#fff}
+@media(prefers-color-scheme:dark){:root{color-scheme:light}}
