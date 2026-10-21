@@ -6,7 +6,6 @@ A moderate, human-designed multi-page portfolio built with plain HTML and CSS.
 
 - `index.html` — Home / developer introduction
 - `about.html` — About Me / education / journey
-- `facaulty.html` — Faculty profile / Kaleem Peerulla Sir (filename retained exactly as requested)
 - `gallery.html` — Projects & work showcase
 - `contact.html` — Contact / connect
 - `style.css` — Shared responsive design system
